@@ -20,7 +20,5 @@ buildDotnetPackage rec {
 
   outputFiles = [ "./SPICA.WinForms/bin/Release/*" ];
 
-  meta = with stdenv.lib; {
-    license = licenses.unlicense;
-  };
+  meta = with stdenv.lib; { license = licenses.unlicense; };
 }
